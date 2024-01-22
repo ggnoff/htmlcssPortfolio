@@ -10,8 +10,12 @@ h1{
 
 .header{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr ;
-    grid-row: 2fr 2fr 2fr 2fr 2fr ;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    grid-row: 1fr ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
     
     
     
@@ -24,9 +28,11 @@ h1{
     color: white;
     height: 10vh;
     
+    
     background-color: rgb(216, 106, 33);
     font-family: 'Gilroy-Bold', sans-serif;
     text-decoration: none;
+    
 
 }
 .me{
@@ -122,13 +128,13 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    
     
     
 }
 .logo{
     border-radius: 50%;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
    
 }
 
@@ -311,6 +317,9 @@ h2{
     }
     .me *{
         margin-bottom: 100px;
+        font-size: 6rem;
+        align-items: center;
+        margin-left: 0;
     }
     .gif{
         display: block;
@@ -318,5 +327,26 @@ h2{
         margin-right: auto;
         width: 50%;
     }
+    .profile{
+        height: 200px;
+        display: block;
+        margin-left: auto ;
+        margin-right: auto;
+    }
+    .logo-container{
+        display: block;
+        margin: 0;
+        padding: 0;
+        display: block;
+        margin-left: auto ;
+        margin-right: auto;
+    }
+    .tindog-preview{
+        height: 200px;
+        display: block;
+        margin-left: auto ;
+        margin-right: auto;
+    }
 }
+
 
