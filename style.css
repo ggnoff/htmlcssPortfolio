@@ -12,7 +12,7 @@ h1{
     display: grid;
     grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
     grid-row: 1fr ;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     
@@ -270,7 +270,7 @@ h2{
     
     background-color: #2e2d2d;
     height: 180px;
-    width: 100%;
+    width: 374px;
     text-align: center;
     position: absolute;
     padding-top: 90px;
@@ -286,7 +286,7 @@ h2{
     
 }
 
-@media (max-width: 680px){
+@media (max-width: 600px){
     .other, .me, .about{
         display: inline;
         width: 100%;
@@ -347,6 +347,10 @@ h2{
         margin-left: auto ;
         margin-right: auto;
     }
+    .figure *{
+        height: 200px;
+    }
+    .mondrian{
+        height: 10px;
+    }
 }
-
-
