@@ -54,11 +54,8 @@ h1{
     background-color: #222222;
     padding-top: 50px;
     
-    
-    
-    
-    
 }
+
 .other{
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -141,7 +138,7 @@ h2{
 
 .edu{
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 170px;
     text-align: left;
     font-size: medium;
     
@@ -149,8 +146,9 @@ h2{
 .edu-description >*{
     color: white;
     margin-bottom: 150px;
-    margin-left: 150px;
+    margin-left: 170px;
     font-size: 40px;
+    text-align: left;
 }
 .skill{
     text-align: left;
@@ -164,6 +162,7 @@ h2{
     font-size: 40px;
     margin-left: 170px;
     margin-bottom: 210px;
+    text-align: left;
 }
 .gif{
     margin-left: 170px;
@@ -190,11 +189,13 @@ h2{
 .tindog > *{
     color: white;
     font-size: 40px;
+    text-align: left;
 }
 .dog-description{
     margin-top: 0;
     font-size: 20px;
     font-family: 'Gilroy-Bold', sans-serif ;
+    text-align: left;
 }
 
 
@@ -225,6 +226,7 @@ h2{
     color: white;
     margin-left: 170px;
     margin-bottom: 150px;
+    text-align: left;
 }
 
 .design-agent{
@@ -242,6 +244,7 @@ h2{
     color: white;
     margin-left: 170px;
     margin-bottom: 80px;
+    text-align: left;
 }
 
 .contact{
@@ -265,6 +268,7 @@ h2{
     padding: 0;
     border-radius: 10px;
     color: white;
+    margin-top: 25px;
 
 }
 
@@ -366,4 +370,3 @@ h2{
         
     }
 }
-
